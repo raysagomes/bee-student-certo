@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgba(255, 166, 0, 0.856),yellow );
+}
+form{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid wheat;
+    outline: none;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+.button:hover{
+    color: yellow;
+    transition: all .5s ease-out;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s ease-out;
+}
+a:hover {
+    color: yellow;
+}
+
+hr{
+    width: 100%;
+}
+
+.voltar{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: .5s;
+    cursor: pointer;
+  }
+  

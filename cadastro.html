@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" defer></script>
+    <div class="container-header">
+        <a href="index.html"><img class="voltar" src="seta.png" alt="voltar"></a>
+        <h1>Cadastro</h1>
+      </div>
+</head>
+
+
+<body>
+    <div id = 'container'>
+        <form id="card" action="">
+
+            <h1>Cadastre-se</h1>
+
+            <div class="label-float">
+                <input type="text" id="nome" placeholder="">
+                <label for="nome">Digite seu nome completo</label>
+            </div>
+
+            <div class="label-float">
+                <input max="2022-12-31" type="date" id="datanasc" placeholder="">
+                <label for="datanasc">Digite sua data de nascimento</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="genero" placeholder="">
+                <label for="genero">Qual é o seu gênero?</label>
+            </div>
+
+            <div class="label-float">
+                <input type="tel" id="telefone" name="telefone">
+                <label for="telefone"> Digite seu número de telefone</label>
+            </div>
+
+            <div class="label-float">
+                <input type="email" id="email" placeholder="">
+                <label for="email">Digite um email valido</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="">
+                <label for="senha">Digite uma senha valida</label>
+            </div>
+
+            <div class="divdobtdecontinuar">
+                <button class="btcontinuar">Continuar</button>
+            </div>
+            
+           <div>
+            <hr></hr>
+           </div>
+
+            <div class="voltarparalogin">
+                <p>Já tem uma conta? 
+                    <a href="login.html"> Faça seu login</a>
+            </div>
+        </form>
+</div>
+    </div>
+</body>
+</html>
